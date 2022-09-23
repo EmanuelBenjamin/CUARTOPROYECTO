@@ -1,0 +1,41 @@
+
+.title{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 600;
+    color: rgb(16, 225, 229);
+
+ 
+}
+
+#nombre{
+    font-size: 150%;
+}
+
+.caja{
+    display: grid;
+   grid-template-columns: 200fr 340px 200fr; 
+   max-width:1000px;
+   margin: auto;
+   height: 100%;
+
+
+}
+
+.pokemon{
+
+ width:85%;
+height: 85%;
+background-color: rgba(206, 9, 250, 0.688);
+text-align: center;
+float: left;
+margin: 4px;
+border-radius: 2%;
+}
+
+
+
+img{
+    height:130px;
+    width: 130px;
+}
